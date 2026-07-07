@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #f0efe7;
+  padding: 22px;
+}
+
+.gallery-tittle{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #888;
+}
+
+.gallery{
+  columns: 3;
+  column-gap: 15px;
+}
+
+.gallery *{
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery * img{
+  width: 80%;
+  display: block;
+  border-radius: 8px;
+}
+.gallery * p{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #27292b;
+}
